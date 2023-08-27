@@ -1,0 +1,19 @@
+.hero {
+  background-image: url(../public/assets/empeak_homehero.png);
+  height: 400px;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* align-items: center; */
+}
+
+@media (max-width:500px) {
+  .hero{
+    height: 300px;
+    /* width: ; */
+  }
+}
